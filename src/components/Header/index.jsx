@@ -16,10 +16,13 @@ function Header() {
       <div className='flex mx-auto'>
         <ul className='flex gap-6 items-center'>
           <li>
-            <a href="/">Github</a>
+            <a href="https://github.com/bora-sen">Github</a>
           </li>
           <li>
-            <a href="/">Linkedin</a>
+            <a href="https://linkedin.com/in/bborasen">Linkedin</a>
+          </li>
+          <li>
+            <a href="mailto:bahattinborasen@gmail.com">Mail Me!</a>
           </li>
         </ul>
       </div>

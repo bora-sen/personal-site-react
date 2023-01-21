@@ -1,6 +1,6 @@
 import React from 'react'
 import {Footer, Header} from '../../components'
-import { OnTheWeb, Welcome, WhoAmI } from './components'
+import { ILoveTo, OnTheWeb, Welcome, WhoAmI, Works } from './sections'
 
 function Home() {
 
@@ -10,10 +10,9 @@ function Home() {
       <Header />
       <Welcome />
       <WhoAmI />
+      <ILoveTo />
       <OnTheWeb />
-
-
-
+      <Works />
       <Footer />
     </main>
   )

@@ -8,4 +8,12 @@
     body{
         @apply bg-primary dark:bg-primary-dark transition-all
     }
+    ::-moz-selection { /* Code for Firefox */
+        @apply text-white bg-primary-dark
+      }
+      
+      ::selection {
+        @apply text-white bg-paragraph
+      }
 }
+

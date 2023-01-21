@@ -8,7 +8,8 @@ module.exports = {
         "primary":"#fafafa",
         "primary-dark":"#171E21",
         "paragraph":"#594a4e",
-        "accent":"#ff725e",
+        "accentOrange":"#ff725e",
+        "accentGreen":"#0a9b25",
       },
       fontFamily:{
         "poppins":['Poppins',"sans-serif"],
