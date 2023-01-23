@@ -1,5 +1,5 @@
 import React from 'react'
-import { GithubProfileIMG, InstagramProfile, LinkedInProfileIMG } from '../assets'
+import { GithubProfileIMG, LinkedInProfileIMG } from '../assets'
 import Reveal from 'react-reveal/Fade'
 
 function OnTheWeb() {

@@ -1,6 +1,6 @@
 import React from 'react'
 import {Footer, Header} from '../../components'
-import { ILoveTo, OnTheWeb, Welcome, WhoAmI, Works } from './sections'
+import { ILoveTo, OnTheWeb, RotateHouse, WhoAmI, Works } from './sections'
 
 function Home() {
 
@@ -8,7 +8,7 @@ function Home() {
   return (
     <main className='font-poppins sm:w-[42rem] mx-auto dark:text-primary'>
       <Header />
-      <Welcome />
+      <RotateHouse />
       <WhoAmI />
       <ILoveTo />
       <OnTheWeb />

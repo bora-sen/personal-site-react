@@ -6,10 +6,12 @@ module.exports = {
     extend: {
       colors:{
         "primary":"#fafafa",
-        "primary-dark":"#171E21",
+        "primary-dark":"#02080e",
         "paragraph":"#594a4e",
-        "accentOrange":"#ff725e",
-        "accentGreen":"#0a9b25",
+        "accentOrange":"#cb5610",
+        "accentGreen":"#439a0a",
+        "accentAqua":"#67c6d1",
+        "accentRed":"#e61049",
       },
       fontFamily:{
         "poppins":['Poppins',"sans-serif"],
