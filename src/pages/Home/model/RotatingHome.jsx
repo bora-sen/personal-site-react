@@ -16,7 +16,6 @@ function RotatingHome() {
     const loadObj = useLoader(OBJLoader,HomeObjFile,loadedObject => {
         myMaterials.preload()
         loadedObject.setMaterials(myMaterials);
-        console.log(loadedObject);
         return loadedObject
     })
 

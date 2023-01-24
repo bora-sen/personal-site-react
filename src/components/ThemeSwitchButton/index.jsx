@@ -1,17 +1,22 @@
-import React, { useEffect } from 'react'
+import React, { useContext } from 'react'
 import { ThemeContext } from '../../context/ThemeContext'
 
 function ThemeSwitchButton() {
-  const {Theme,setTheme} = React.useContext(ThemeContext);
-  useEffect(() => {
-    if(Theme === "dark"){document.documentElement.classList.add("dark")}
-    else {document.documentElement.classList.remove("dark")}
-  },[Theme])
+  const local = useContext(ThemeContext)
+  const changeThemeToDark = local.changeThemeToDark;
+  const changeThemeToLight = local.changeThemeToLight;
+
+
+  const Theme = local.Theme
+
+
   function handleSwitchAction(e){
     e.preventDefault()
-    if(Theme === "light"){setTheme("dark")}
-    else {
-      setTheme("light")
+    if(Theme === "light"){
+      changeThemeToDark();
+    }
+    else if(Theme === "dark") {
+      changeThemeToLight();
     }
   }
 

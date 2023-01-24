@@ -1,4 +1,4 @@
-import { OrbitControls } from '@react-three/drei'
+import { OrbitControls, PerspectiveCamera } from '@react-three/drei'
 import React, { Suspense, useContext } from 'react'
 import { Canvas } from 'react-three-fiber'
 import { ThemeContext } from '../../../context/ThemeContext'
@@ -30,6 +30,7 @@ function RotateHouse() {
 
     <div className='w-full h-[30rem]'>
         <Canvas>
+          <PerspectiveCamera makeDefault position={[0,0,6.5]} fov={50} />
         <OrbitControls autoRotate autoRotateSpeed={0.5} enableZoom={false} />
             <Suspense fallback={null}>
               {handleLights()}
