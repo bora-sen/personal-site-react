@@ -2,6 +2,7 @@ import { OrbitControls, PerspectiveCamera } from '@react-three/drei'
 import React, { Suspense, useContext } from 'react'
 import { Canvas } from 'react-three-fiber'
 import { ThemeContext } from '../../../context/ThemeContext'
+import { ProfileImage } from '../assets'
 
 import RotatingHome from '../model/RotatingHome'
 
@@ -28,16 +29,25 @@ function RotateHouse() {
   return (
     <>
 
-    <div className='w-full h-[30rem]'>
+
+    <div className='w-full h-[35rem]'>
+
         <Canvas>
           <PerspectiveCamera makeDefault position={[0,0,6.5]} fov={50} />
         <OrbitControls autoRotate autoRotateSpeed={0.5} enableZoom={false} />
             <Suspense fallback={null}>
               {handleLights()}
-
             <RotatingHome />
             </Suspense>
         </Canvas>
+        <div className='relative z-10 -top-20 flex justify-center'>
+        <div className='backdrop-blur-sm backdrop-brightness-75 dark:backdrop-brightness-200 text-white p-2 rounded-md flex items-center gap-2'>
+          <img src={ProfileImage} className="w-12 h-12 rounded-full"/>
+          <span className='font-poppins'>Solve real life problems with code</span>
+          
+
+        </div>
+      </div>
 
     </div>
     </>
