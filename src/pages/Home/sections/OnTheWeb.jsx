@@ -14,7 +14,7 @@ function OnTheWeb() {
           <li key={index} className='flex items-center mb-2 hover:animate-pulse'>
             <a className='flex items-center gap-1' href={social.redURL}>            
             <img className='w-8 rounded-md mr-1 stro stroke-slate-900 bg-accentAqua p-1' src={social.placeholderImg} alt={`${social.title}'s Placeholder`}/>
-              <span className='text-primary-dark font-poppins'>{social.title}</span>
+              <span className='text-primary-dark font-poppins dark:text-primary'>{social.title}</span>
               </a>
           </li>
           )
