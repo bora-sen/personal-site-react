@@ -1,23 +1,24 @@
 import React from 'react'
-import { GithubProfileIMG, LinkedInProfileIMG } from '../assets'
 import Reveal from 'react-reveal/Fade'
+import dataset from '../../../dataset.json'
 
 function OnTheWeb() {
+  const socials = dataset.socials;
   return (
     <Reveal delay={250}>
     <section className='p-2'>
       <h3 className='text-xl underline font-bold decoration-4 text-accentOrange' >On The Web:</h3>
       <ul className='mt-2'>
-        <li className='flex items-center mb-2'>
-          <a className='flex items-center gap-1 ' href="https://github.com/bora-sen">            
-          <img className='w-56 rounded-md mr-1' src={GithubProfileIMG} alt="sadlfj"/>
-            My github Profile</a>
-        </li>
-        <li className='flex items-center mb-2'>
-          <a className='flex items-center gap-1 ' href="https://linkedin.com/in/bborasen">
-          <img src={LinkedInProfileIMG} className="w-56 rounded-md mr-1" alt="" />
-            Linkedin</a>
-        </li>
+        {socials.map((social,index) => {
+          return (
+          <li key={index} className='flex items-center mb-2 hover:animate-pulse'>
+            <a className='flex items-center gap-1' href={social.redURL}>            
+            <img className='w-8 rounded-md mr-1 stro stroke-slate-900 bg-accentAqua p-1' src={social.placeholderImg} alt={`${social.title}'s Placeholder`}/>
+              <span className='text-primary-dark font-poppins'>{social.title}</span>
+              </a>
+          </li>
+          )
+        })}
       </ul>
     </section>
     </Reveal>
