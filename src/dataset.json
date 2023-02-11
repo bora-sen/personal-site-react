@@ -1,12 +1,36 @@
 {
     "works":[
         {
-            "title":"Hermorsuffer Official Website",
-            "placeholderImg":"https://loremflickr.com/1280/720/1"
+            "title":"Hermorsuffer Website",
+            "placeholderImg":"/images/works/hermorsuffer.png",
+            "redURL" : "https://hermorsuffer.com"
         },
         {
-            "title":"DrawndPaint Official E-commerce Website",
-            "placeholderImg":"https://loremflickr.com/1280/720/2"
+            "title":"DrawndPaint Website",
+            "placeholderImg":"/images/works/drawndpaint.jpg",
+            "redURL" : "https://drawndpaint.com"
+        }
+    ],
+    "socials":[
+        {
+            "title":"Instagram",
+            "redURL" : "https://instagram.com/senkisibora",
+            "placeholderImg" : "/images/socials/instagram.svg"
+        },
+        {
+            "title":"Linkedin",
+            "redURL" : "https://linkedin.com/in/bborasen",
+            "placeholderImg" : "/images/socials/linkedin.svg"
+        },
+        {
+            "title":"Github",
+            "redURL" : "https://github.com/bora-sen",
+            "placeholderImg" : "/images/socials/github.svg"
+        },
+        {
+            "title":"Spotify",
+            "redURL" : "https://spotify.com",
+            "placeholderImg" : "/images/socials/music.svg"
         }
     ]
 }
