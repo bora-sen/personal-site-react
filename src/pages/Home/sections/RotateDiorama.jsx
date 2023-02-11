@@ -2,11 +2,7 @@ import { OrbitControls, PerspectiveCamera } from '@react-three/drei'
 import React, { Suspense, useContext } from 'react'
 import { Canvas } from 'react-three-fiber'
 import { ThemeContext } from '../../../context/ThemeContext'
-import { ProfileImage } from '../assets'
-
 import RotatingDiorama from '../model/RotatingDiorama'
-import gsap from 'gsap'
-
 
 
 function RotateHouse() {
@@ -26,12 +22,6 @@ function RotateHouse() {
       )
     }
   }
-
-
-
-
-
-
   return (
     <>
 
@@ -40,20 +30,12 @@ function RotateHouse() {
 
         <Canvas>
           <PerspectiveCamera makeDefault position={[0,1.5,6.5]} fov={40} />
-        <OrbitControls enableZoom={false} />
+        <OrbitControls autoRotate autoRotateSpeed={-0.12} enableZoom={false} />
             <Suspense fallback={null}>
               {handleLights()}
             <RotatingDiorama />
             </Suspense>
         </Canvas>
-
-
-        <div className='relative z-10 -top-20 flex justify-center'>
-        <div className='backdrop-blur-sm backdrop-brightness-75 dark:backdrop-brightness-200 text-white p-2 rounded-md flex items-center gap-2'>
-          <img src={ProfileImage} className="w-12 h-12 rounded-full"/>
-          <span className='font-poppins'>Solve real life problems with code</span>
-        </div>
-      </div>
     </div>
     </>
   )
