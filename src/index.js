@@ -4,12 +4,15 @@ import './index.css';
 import { BrowserRouter } from 'react-router-dom';
 import MainRouter from './MainRouter';
 import ThemeProvider from './context/ThemeContext';
+import MainContextProvider from './context/MainContext'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
-    <ThemeProvider>
-        <MainRouter />
-    </ThemeProvider>
+        <ThemeProvider>
+            <MainContextProvider>
+                <MainRouter />
+            </MainContextProvider>
+        </ThemeProvider>
     </BrowserRouter>
 );
