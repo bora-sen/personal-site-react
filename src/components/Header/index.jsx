@@ -3,7 +3,8 @@ import ThemeSwitchButton from '../ThemeSwitchButton'
 
 function Header() {
   return (
-    <section className='sticky top-0 z-10 font-poppins flex justify-between items-center px-3 py-2 h-16 mb-4 shadow-xl backdrop-blur-sm'>
+    <section className='sticky flex-col sm:flex-row gap-2 sm:gap-0 top-0 z-10 font-poppins flex justify-between items-center px-3 py-2 h-auto mb-4 shadow-xl backdrop-blur-sm'>
+      
       <div className='group flex hover:cursor-default'>
         <svg className='w-6 fill-transparent dark:fill-primary-dark dark:stroke-primary -rotate-12 mr-1 transition-all group-hover:rotate-0' stroke="#323232" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path d="M19.412 7.214c.729 5.184-3.2 9.528-6.167 9.946-2.968.418-7.945-2.695-8.672-7.86A7.492 7.492 0 0 1 19.41 7.214h.002Z" />
@@ -13,7 +14,8 @@ function Header() {
         </svg>
         <h1 className='font-bold'>Bahattin Bora Şen</h1>
       </div>
-      <div className='flex mx-auto'>
+
+      <div className='flex items-center justify-center gap-8'>
         <ul className='flex gap-6 items-center'>
           <li>
             <a href="https://github.com/bora-sen">Github</a>
@@ -25,10 +27,11 @@ function Header() {
             <a href="mailto:bahattinborasen@gmail.com">Mail Me!</a>
           </li>
         </ul>
-      </div>
-      <div>
+        <div>
           <ThemeSwitchButton />
         </div>
+      </div>
+
     </section>
   )
 }
