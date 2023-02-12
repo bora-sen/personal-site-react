@@ -1,6 +1,6 @@
 # This is my personal website
 
-![](https://raw.githubusercontent.com/bora-sen/personal-site-react/main/siteLook.mp4)
+![]('./ss.png')
 
 ## I used:
 - React.js
