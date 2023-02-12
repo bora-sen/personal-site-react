@@ -1,16 +1,23 @@
-import { useGLTF } from '@react-three/drei'
 import React from 'react'
 import gsap from 'gsap'
 import { Power4 } from 'gsap'
 
 import dioramaFile from './diorama.glb'
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
+import { useLoader } from 'react-three-fiber'
 
 function RotatingDiorama() {
 
-  const LoadScene = useGLTF(dioramaFile)
+  const LoadScene = useLoader(GLTFLoader,dioramaFile,obj => {
+    //console.log(obj);
+  });
+
   const diorama = LoadScene.scene;
   diorama.castShadow=true;
-  console.log(LoadScene);
+  diorama.recieveShadow=true;
+
+  console.log(diorama);
+
 
 
   function IntroMove(){
@@ -23,7 +30,7 @@ function RotatingDiorama() {
     })
     gsap.to(diorama.position,{
       x:0.4,
-      y:-1,
+      y:-1.3,
       z:0,
       duration:2,
       ease:Power4.easeOut
