@@ -1,6 +1,6 @@
 # This is my personal website
 
-![](./siteLook.mp4)
+![](https://raw.githubusercontent.com/bora-sen/personal-site-react/main/siteLook.mp4)
 
 ## I used:
 - React.js
