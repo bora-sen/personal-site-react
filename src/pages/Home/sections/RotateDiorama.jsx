@@ -1,10 +1,21 @@
-import { OrbitControls, PerspectiveCamera } from '@react-three/drei'
+import { Html, OrbitControls, PerspectiveCamera, useProgress } from '@react-three/drei'
 import React, { Suspense, useContext } from 'react'
 import { Canvas } from 'react-three-fiber'
 import { ThemeContext } from '../../../context/ThemeContext'
 import RotatingDiorama from '../model/RotatingDiorama'
 
 
+function LoadingSpinner(){
+  const {progress} = useProgress();
+  return (
+    <Html center>
+      <div className='text-2xl font-extrabold font-poppins flex flex-col items-center justify-center'>
+        <h2>Truck Is Climbing</h2>
+        <h3>{progress} % Climbing</h3>
+      </div>
+    </Html>
+  )
+}
 
 function RotateHouse() {
   let theme = useContext(ThemeContext).Theme;
@@ -29,7 +40,7 @@ function RotateHouse() {
         <Canvas shadows="variance">
           <PerspectiveCamera makeDefault position={[0,1.5,6.5]} fov={40} />
         <OrbitControls autoRotate autoRotateSpeed={-0.12} enableZoom={false} />
-            <Suspense fallback={null}>
+            <Suspense fallback={<LoadingSpinner />}>
               {handleLights()}
             <RotatingDiorama />
             </Suspense>
