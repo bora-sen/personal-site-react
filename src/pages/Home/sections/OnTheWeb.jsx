@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Reveal from 'react-reveal/Fade'
-import dataset from '../../../dataset.json'
+import { MainContext } from '../../../context/MainContext';
 
 function OnTheWeb() {
-  const socials = dataset.socials;
+  const {socials} = useContext(MainContext);
   return (
     <Reveal delay={250}>
     <section className='p-2'>

@@ -1,8 +1,8 @@
-import React from 'react'
-import dataset from '../../../dataset.json'
+import React, { useContext } from 'react'
+import { MainContext } from '../../../context/MainContext';
 
 function Works() {
-  const works = dataset.works;
+  const {works} = useContext(MainContext);
   return (
     <section className='p-2'>
       <h3 className='text-xl underline decoration-4 font-bold text-accentOrange'>Works</h3>
