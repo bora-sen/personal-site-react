@@ -10,8 +10,8 @@ function LoadingSpinner(){
   return (
     <Html center>
       <div className='text-2xl font-extrabold font-poppins flex flex-col items-center justify-center'>
-        <h2>Truck Is Climbing</h2>
-        <h3>{progress} % Climbing</h3>
+        <h2>Loading..</h2>
+        <h3>{progress}%</h3>
       </div>
     </Html>
   )
