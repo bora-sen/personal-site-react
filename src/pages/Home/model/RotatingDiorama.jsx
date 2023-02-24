@@ -1,8 +1,8 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import gsap from 'gsap'
 import { Power4 } from 'gsap'
 
-import dioramaFile from './diorama.glb'
+import dioramaFile from './IBMPC.glb'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import { useLoader } from 'react-three-fiber'
 
@@ -17,14 +17,14 @@ function RotatingDiorama() {
   function IntroMove(){
     gsap.to(diorama.rotation,{
       x:0,
-      y:-1.4,
+      y:-0.4,
       z:0,
       duration:3,
       ease:Power4.easeOut
     })
     gsap.to(diorama.position,{
       x:0.4,
-      y:-1.3,
+      y:-0.91,
       z:0,
       duration:2,
       ease:Power4.easeOut
@@ -34,7 +34,7 @@ function RotatingDiorama() {
   IntroMove();
 
   return (
-    <primitive object={diorama} scale={0.05} position={[1.2,-5,0]} rotation={[-1.3,-1.4,0]} />
+    <primitive object={diorama} scale={1} position={[1.2,0.5,0]} rotation={[-0.4,0,0]} />
   )
 }
 

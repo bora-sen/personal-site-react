@@ -5,13 +5,13 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        "primary":"#fbfaf1",
+        "primary":"#eceae3",
         "primary-dark":"#0a0a13",
         "paragraph":"#594a4e",
         "accentOrange":"#b6152a",
-        "accentGreen":"#7ea825",
-        "accentAqua":"#668d97",
-        "accentRed":"#b6152a",
+        "accentGreen":"#188a0e",
+        "accentAqua":"#000257",
+        "accentRed":"#881a45",
       },
       fontFamily:{
         "poppins":['Poppins',"sans-serif"],
