@@ -45,9 +45,9 @@ function RotateHouse() {
   }
   return (
     <>
-    <div className='w-full h-[27rem]'>
+    <div className='w-full h-[30rem]'>
         <Canvas shadows="variance">
-          <PerspectiveCamera makeDefault position={[0,1.5,6.5]} fov={40} />
+          <PerspectiveCamera makeDefault position={[0,1.5,6.5]} fov={45} />
         <OrbitControls autoRotate autoRotateSpeed={-0.12} enableZoom={false} />
             <Suspense fallback={<LoadingSpinner />}>
               {handleLights()}

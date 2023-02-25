@@ -23,9 +23,9 @@ function RotatingDiorama() {
       ease:Power4.easeOut
     })
     gsap.to(diorama.position,{
-      x:0.4,
+      x:0,
       y:-0.91,
-      z:0,
+      z:0.14,
       duration:2,
       ease:Power4.easeOut
     })
