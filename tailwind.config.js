@@ -6,11 +6,11 @@ module.exports = {
     extend: {
       colors:{
         "primary":"#fdfcfb",
-        "primary-dark":"#0a0a13",
+        "primary-dark":"#010101",
         "paragraph":"#594a4e",
         "accentOrange":"#b6152a",
         "accentGreen":"#188a0e",
-        "accentAqua":"#000257",
+        "accentAqua":"#3958a2",
         "accentRed":"#881a45",
       },
       fontFamily:{
