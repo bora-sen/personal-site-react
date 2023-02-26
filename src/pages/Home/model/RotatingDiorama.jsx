@@ -17,7 +17,7 @@ function RotatingDiorama() {
   function IntroMove(){
     gsap.to(diorama.rotation,{
       x:0,
-      y:-0.4,
+      y:-0.5,
       z:0,
       duration:3,
       ease:Power4.easeOut
@@ -34,7 +34,7 @@ function RotatingDiorama() {
   IntroMove();
 
   return (
-    <primitive object={diorama} scale={1} position={[1.2,0.5,0]} rotation={[-0.4,0,0]} />
+    <primitive object={diorama} scale={1} position={[0.5,0.2,0]} rotation={[-0.4,-8,0]} />
   )
 }
 
