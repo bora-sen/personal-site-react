@@ -1,6 +1,6 @@
 # This is my personal website
 
-![Website Screenshot]('./site-ss.png')
+![Website Screenshot](site-ss.png)
 
 ## I used:
 - React.js
