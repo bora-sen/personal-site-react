@@ -9,7 +9,24 @@
             "title":"DrawndPaint Website",
             "placeholderImg":"/images/works/drawndpaint.jpg",
             "redURL" : "https://drawndpaint.com"
+        },
+        {
+            "title":"3D Moon | Using Three.js",
+            "placeholderImg":"/images/works/moon-ss.png",
+            "redURL" : "https://moon.bborasen.com"
+        },
+        {
+            "title":"Manage Landing Page | React.js",
+            "placeholderImg":"/images/works/manage-ss.png",
+            "redURL" : "https://drawndpaint.com"
+        },
+        {
+            "title":"Son Depremler | Kandilli Rasathanesi API",
+            "placeholderImg":"/images/works/harita-ss.png",
+            "redURL" : "http://kandilliharita.bborasen.com"
         }
+        
+
     ],
     "socials":[
         {
