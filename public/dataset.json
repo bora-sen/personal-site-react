@@ -1,53 +1,66 @@
 {
-    "works":[
-        {
-            "title":"Hermorsuffer Website",
-            "placeholderImg":"/images/works/hermorsuffer.png",
-            "redURL" : "https://hermorsuffer.com"
-        },
-        {
-            "title":"DrawndPaint Website",
-            "placeholderImg":"/images/works/drawndpaint.jpg",
-            "redURL" : "https://drawndpaint.com"
-        },
-        {
-            "title":"3D Moon | Using Three.js",
-            "placeholderImg":"/images/works/moon-ss.png",
-            "redURL" : "https://moon.bborasen.com"
-        },
-        {
-            "title":"Manage Landing Page | React.js",
-            "placeholderImg":"/images/works/manage-ss.png",
-            "redURL" : "https://drawndpaint.com"
-        },
-        {
-            "title":"Son Depremler | Kandilli Rasathanesi API",
-            "placeholderImg":"/images/works/harita-ss.png",
-            "redURL" : "http://kandilliharita.bborasen.com"
-        }
-        
-
-    ],
-    "socials":[
-        {
-            "title":"Instagram",
-            "redURL" : "https://instagram.com/senkisibora",
-            "placeholderImg" : "/images/socials/instagram.svg"
-        },
-        {
-            "title":"Linkedin",
-            "redURL" : "https://linkedin.com/in/bborasen",
-            "placeholderImg" : "/images/socials/linkedin.svg"
-        },
-        {
-            "title":"Github",
-            "redURL" : "https://github.com/bora-sen",
-            "placeholderImg" : "/images/socials/github.svg"
-        },
-        {
-            "title":"Spotify",
-            "redURL" : "https://spotify.com",
-            "placeholderImg" : "/images/socials/music.svg"
-        }
-    ]
+  "works": [
+    {
+      "title": "Hermorsuffer Website",
+      "placeholderImg": "/images/works/hermorsuffer-ss.jpg",
+      "redURL": "https://hermorsuffer.com"
+    },
+    {
+      "title": "Manage Landing Page | React.js",
+      "placeholderImg": "/images/works/manage-ss.jpg",
+      "redURL": "https://bora-sen.github.io/manage-landing-page/"
+    },
+    {
+      "title": "Shortly URL Shortener App",
+      "placeholderImg": "/images/works/shortly-ss.jpg",
+      "redURL": "https://bora-sen.github.io/shortly-app/"
+    },
+    {
+      "title": "Spendit Money Spending App",
+      "placeholderImg": "/images/works/spendit-ss.jpg",
+      "redURL": "https://bora-sen.github.io/spendit-react/"
+    },
+    {
+      "title": "Three.js Moon Example",
+      "placeholderImg": "/images/works/threejs-moon-ss.jpg",
+      "redURL": "http://kandilliharita.bborasen.com"
+    },
+    {
+      "title": "Tip Calculator App",
+      "placeholderImg": "/images/works/tip-calculator-ss.jpg",
+      "redURL": "https://bora-sen.github.io/tip-calculator/"
+    },
+    {
+      "title": "Todo App",
+      "placeholderImg": "/images/works/todo-ss.jpg",
+      "redURL": "http://todo.bborasen.com"
+    },
+    {
+      "title": "Weather App",
+      "placeholderImg": "/images/works/weather-app-ss.jpg",
+      "redURL": "https://bora-sen.github.io/weather-app/"
+    }
+  ],
+  "socials": [
+    {
+      "title": "Instagram",
+      "redURL": "https://instagram.com/senkisibora",
+      "placeholderImg": "/images/socials/instagram.svg"
+    },
+    {
+      "title": "Linkedin",
+      "redURL": "https://linkedin.com/in/bborasen",
+      "placeholderImg": "/images/socials/linkedin.svg"
+    },
+    {
+      "title": "Github",
+      "redURL": "https://github.com/bora-sen",
+      "placeholderImg": "/images/socials/github.svg"
+    },
+    {
+      "title": "Spotify",
+      "redURL": "https://spotify.com",
+      "placeholderImg": "/images/socials/music.svg"
+    }
+  ]
 }
