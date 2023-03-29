@@ -1,8 +1,10 @@
-import React from 'react'
+import React from "react"
 
 function LoadingPage() {
   return (
-    <div>loading..</div>
+    <div className="flex items-center justify-center h-screen">
+      <div className="text-2xl font-bold">Loading..</div>
+    </div>
   )
 }
 
