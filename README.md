@@ -7,4 +7,3 @@
 - Tailwind.css
 - Reveal.js
 - Three.js / React Fiber 
-- GSAP
