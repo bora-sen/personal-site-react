@@ -12,9 +12,13 @@ module.exports = {
         accentGreen: "#188a0e",
         accentAqua: "#242ac2",
         accentRed: "#881a45",
+        "primary-blue": "#1b6cbb",
+        "primary-purple": "#a92e7a",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        tusker: ["TuskerRegular"],
+        "tusker-bold": ["TuskerBold"],
       },
     },
   },

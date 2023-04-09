@@ -1,5 +1,7 @@
-export {default as Header} from './Header/index.jsx'
-export {default as Footer} from './Footer/index.jsx'
-export {default as ThemeSwitchButton} from './ThemeSwitchButton'
-export {default as Layout } from './Layout'
-export {default as LoadingPage} from './LoadingPage'
+export { default as Footer } from "./Footer"
+export { default as Header } from "./Header"
+export { default as Hero } from "./Hero"
+export { default as MovingLines } from "./MovingLines"
+export { default as TopSection } from "./TopSection"
+export { default as WhoAmi } from "./WhoAmi"
+export { default as Works } from "./Works"
