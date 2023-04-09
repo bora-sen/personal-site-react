@@ -3,42 +3,50 @@
     {
       "title": "Hermorsuffer Website",
       "placeholderImg": "/images/works/hermorsuffer-ss.jpg",
-      "redURL": "https://hermorsuffer.com"
+      "redURL": "https://hermorsuffer.com",
+      "desc": "My side project that I developed during my spare time to improve my React.js skills and to create a practical application that can help people manage their daily tasks. The app features an interactive user interface, which I built using React.js, a popular JavaScript library known for its simplicity and flexibility."
     },
     {
       "title": "Manage Landing Page | React.js",
       "placeholderImg": "/images/works/manage-ss.jpg",
-      "redURL": "https://bora-sen.github.io/manage-landing-page/"
+      "redURL": "https://bora-sen.github.io/manage-landing-page/",
+      "desc": "This Project was a valuable learning experience that allowed me to develop my skills in website layout design and implementation using React.js. The project involved creating a landing page for a fictitious product, with a focus on creating an engaging and visually appealing layout that would attract and retain user attention."
     },
     {
       "title": "Shortly URL Shortener App",
       "placeholderImg": "/images/works/shortly-ss.jpg",
-      "redURL": "https://bora-sen.github.io/shortly-app/"
-    },
-    {
-      "title": "Spendit Money Spending App",
-      "placeholderImg": "/images/works/spendit-ss.jpg",
-      "redURL": "https://bora-sen.github.io/spendit-react/"
-    },
-    {
-      "title": "Three.js Moon Example",
-      "placeholderImg": "/images/works/threejs-moon-ss.jpg",
-      "redURL": "http://kandilliharita.bborasen.com"
-    },
-    {
-      "title": "Tip Calculator App",
-      "placeholderImg": "/images/works/tip-calculator-ss.jpg",
-      "redURL": "https://bora-sen.github.io/tip-calculator/"
-    },
-    {
-      "title": "Todo App",
-      "placeholderImg": "/images/works/todo-ss.jpg",
-      "redURL": "http://todo.bborasen.com"
+      "redURL": "https://bora-sen.github.io/shortly-app/",
+      "desc": "The URL Shortener App is a side project that I developed with the aim of learning more about public APIs. The app allows users to input long URLs and generate a shortened URL using a public API. This makes it convenient for users to share links without having to type out long URLs."
     },
     {
       "title": "Weather App",
       "placeholderImg": "/images/works/weather-app-ss.jpg",
-      "redURL": "https://bora-sen.github.io/weather-app/"
+      "redURL": "https://bora-sen.github.io/weather-app/",
+      "desc": "I developed this app to help people easily access the latest weather information for cities in Turkey. To achieve this, I used the Axios JavaScript library, which allowed me to easily fetch the location data for various cities in Turkey using an external API."
+    },
+    {
+      "title": "Spendit Money Spending App",
+      "placeholderImg": "/images/works/spendit-ss.jpg",
+      "redURL": "https://bora-sen.github.io/spendit-react/",
+      "desc": ""
+    },
+    {
+      "title": "Three.js Moon Example",
+      "placeholderImg": "/images/works/threejs-moon-ss.jpg",
+      "redURL": "http://kandilliharita.bborasen.com",
+      "desc": ""
+    },
+    {
+      "title": "Tip Calculator App",
+      "placeholderImg": "/images/works/tip-calculator-ss.jpg",
+      "redURL": "https://bora-sen.github.io/tip-calculator/",
+      "desc": ""
+    },
+    {
+      "title": "Todo App",
+      "placeholderImg": "/images/works/todo-ss.jpg",
+      "redURL": "http://todo.bborasen.com",
+      "desc": ""
     }
   ],
   "socials": [

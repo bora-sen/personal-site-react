@@ -2,18 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
-
-@layer base {
-    body{
-        @apply bg-primary dark:bg-primary-dark transition-all
-    }
-    ::-moz-selection { /* Code for Firefox */
-        @apply text-white bg-primary-dark
-      }
-      
-      ::selection {
-        @apply text-white bg-paragraph
-      }
+@font-face {
+  font-family: TuskerRegular;
+  src: url("./Assets/fonts/tusker_regular.ttf");
+}
+@font-face {
+  font-family: TuskerBold;
+  src: url("./Assets/fonts/tusker_bold.ttf");
 }
 
+@layer base {
+  body {
+    @apply bg-black transition-all box-border scroll-smooth font-poppins;
+  }
+  ::-moz-selection {
+    @apply text-white bg-black;
+  }
+
+  ::selection {
+    @apply text-white bg-primary-purple;
+  }
+}

@@ -1,16 +1,18 @@
 import React from "react"
-import { Layout } from "../../components"
-import { ILoveTo, OnTheWeb, RotateHouse, WhoAmI, Works } from "./sections"
-
+import Header from "../../components/Header"
+import { MovingLines, TopSection, Works } from "../../components"
+import Footer from "../../components/Footer"
 function Home() {
   return (
-    <Layout>
-      <RotateHouse />
-      <WhoAmI />
-      <ILoveTo />
-      <OnTheWeb />
-      <Works />
-    </Layout>
+    <>
+      <Header />
+      <main id="main_content">
+        <TopSection />
+        <Works />
+        <MovingLines />
+      </main>
+      <Footer />
+    </>
   )
 }
 
