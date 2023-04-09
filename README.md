@@ -1,9 +1,15 @@
 # This is my personal website
 
-![Website Screenshot](site-ss.png)
+# [See Website](https://bborasen.com)
+
+## Screenshots
+
+![Website Screenshot](site-ss.jpg)
 
 ## I used:
+
 - React.js
 - Tailwind.css
 - Reveal.js
-- Three.js / React Fiber 
+- Three.js / React Fiber
+- GSAP
