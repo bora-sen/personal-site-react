@@ -19,28 +19,27 @@ function Footer() {
           <div className="font-tusker ml-6 mt-auto mb-4">
             <div className="text-2xl lg:text-[6rem] uppercase flex flex-col sm:flex-row mb-9 ">
               <span className="text-[4rem] my-6">are you minding a project ? </span>
-              <NavLink
-                className="px-8 py-4 text-5xl bg-white text-black rounded-full hover:bg-black hover:text-white transition-colors"
-                replace
-                to="mailto:bahattinborasen@gmail.com"
+              <a
+                className="px-8 ml-4 py-4 text-5xl bg-white text-black rounded-full hover:bg-black hover:text-white transition-colors"
+                href="mailto:bahattinborasen@gmail.com"
               >
                 Contact Me
-              </NavLink>
+              </a>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-2 text-4xl text-center">
-              <NavLink className="p-4 border-2 border-white rounded-full" replace to="mailto:bahattinborasen@gmail.com">
+              <a className="p-4 border-2 border-white rounded-full" href="https://linkedin.com/in/bborasen">
                 linkedin
-              </NavLink>
-              <NavLink className="p-4 border-2 border-white rounded-full" replace to="mailto:bahattinborasen@gmail.com">
+              </a>
+              <a className="p-4 border-2 border-white rounded-full" href="https://instagram.com/senkisibora">
                 instagram
-              </NavLink>
-              <NavLink className="p-4 border-2 border-white rounded-full" replace to="mailto:bahattinborasen@gmail.com">
-                mail
-              </NavLink>
-              <NavLink className="p-4 border-2 border-white rounded-full" replace to="mailto:bahattinborasen@gmail.com">
+              </a>
+              <a className="p-4 border-2 border-white rounded-full" href="mailto:bahattinborasen@gmail.com">
+                gmail
+              </a>
+              <a className="p-4 border-2 border-white rounded-full" href="https://github.com/bora-sen">
                 github
-              </NavLink>
+              </a>
             </div>
           </div>
         </div>
