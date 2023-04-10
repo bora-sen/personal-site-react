@@ -37,12 +37,10 @@ function WhoAmi() {
     return () => ctx.revert()
   }, [])
   return (
-    <section id="whoami_section" className="text-white w-full h-[100dvh] overflow-hidden">
+    <section id="whoami_section" className="text-white w-full h-screen overflow-hidden">
       <div className="flex md:flex-row flex-col-reverse h-full">
         <div id="left" ref={leftRef} className="w-full md:w-1/2 flex justify-center items-center">
-
           <div className="w-full lg:w-[55rem] p-4">
-
             <div className="grid mb-4">
               <h3 className="font-tusker-bold uppercase text-9xl">Hi!</h3>
               <h4 className="font-poppins font-bold uppercase text-5xl">I'm Bora</h4>
@@ -54,7 +52,7 @@ function WhoAmi() {
             </p>
           </div>
         </div>
-        <div ref={rightRef} className="w-full h-[100dvh] md:w-1/2 md:h-full -z-50 xm:z-50">
+        <div ref={rightRef} className="w-full h-screen md:w-1/2 md:h-full -z-50 xm:z-50">
           <Canvas>
             <OrbitControls enableZoom={false} enablePan autoRotate autoRotateSpeed={0.36} />
             <ambientLight intensity={0.1} />

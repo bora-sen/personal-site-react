@@ -43,7 +43,7 @@ function Hero() {
             <span className="hero_text text-[6rem] sm:text-[8rem] md:text-[10rem]">Developer</span>
           </div>
         </div>
-        <div id="hero_desc_text" className="font-poppins absolute right-0 text-right font-bold grid uppercase text-[1rem] lg:text-5xl xl:text-6xl">
+        <div id="hero_desc_text" className="font-poppins absolute right-0 text-right font-bold grid uppercase text-[1.4rem] lg:text-5xl xl:text-6xl">
           <span className="hero_desc_text">Learning,</span>
           <span className="hero_desc_text">experimenting,</span>
           <span className="hero_desc_text">creating and constantly pushing </span>

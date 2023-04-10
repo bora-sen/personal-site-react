@@ -48,7 +48,7 @@ function MovingLines() {
     )
   }, [])
   return (
-    <section id="moving_texts_section" className="w-full h-[100dvh] text-white flex items-center justify-center">
+    <section id="moving_texts_section" className="w-full h-screen text-white flex items-center justify-center">
       <div className="absolute w-full h-full z-30">
         <img id="moving_lines_back_image" className="w-full h-full object-cover object-center" alt="hero background" src={MovingLinesBg} />
       </div>

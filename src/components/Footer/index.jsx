@@ -3,7 +3,7 @@ import FooterBg from "../../Assets/footer_bg.jpg"
 
 function Footer() {
   return (
-    <section className="w-full h-[100dvh] z-50 text-white tracking-wider">
+    <section className="w-full h-screen z-50 text-white tracking-wider">
       <div className="absolute w-full h-full -z-50">
         <img id="footer_back_image" className="w-full h-full object-cover object-center" alt="hero background" src={FooterBg} />
       </div>
@@ -19,7 +19,7 @@ function Footer() {
             <div className="text-2xl lg:text-[6rem] uppercase flex flex-col sm:flex-row mb-9 ">
               <span className="text-[4rem] my-6">are you minding a project ? </span>
               <a
-                className="px-8 ml-4 py-4 text-5xl bg-white text-black rounded-full hover:bg-black hover:text-white transition-colors"
+                className="px-8 ml-4 py-4 text-center text-5xl bg-white text-black rounded-full hover:bg-black hover:text-white transition-colors"
                 href="mailto:bahattinborasen@gmail.com"
               >
                 Contact Me
