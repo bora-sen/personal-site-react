@@ -38,12 +38,12 @@ function Hero() {
       <div className="w-full h-[97dvh] flex sm:flex-row flex-col lg:justify-between">
         <div id="hero_titles" className="absolute bottom-0 md:w-[45rem] mt-auto">
           <div className="grid font-tusker-bold leading-none ml-2">
-            <span className="hero_text text-[5rem] sm:text-[6rem] md:text-[8rem]">Junior</span>
-            <span className="hero_text text-[8rem] sm:text-[10rem] md:text-[12rem]">Full-Stack</span>
+            <span className="hero_text text-[5rem] sm:text-[6rem] md:text-[6rem]">Junior</span>
+            <span className="hero_text text-[8rem] sm:text-[10rem] md:text-[10rem]">Full-Stack</span>
             <span className="hero_text text-[6rem] sm:text-[8rem] md:text-[10rem]">Developer</span>
           </div>
         </div>
-        <div id="hero_desc_text" className="font-poppins absolute right-0 text-right font-bold grid uppercase text-[1.2rem] lg:text-5xl xl:text-6xl">
+        <div id="hero_desc_text" className="font-poppins absolute right-0 text-right font-bold grid uppercase text-[1rem] lg:text-5xl xl:text-6xl">
           <span className="hero_desc_text">Learning,</span>
           <span className="hero_desc_text">experimenting,</span>
           <span className="hero_desc_text">creating and constantly pushing </span>

@@ -1,5 +1,4 @@
 import React from "react"
-import { NavLink } from "react-router-dom"
 import FooterBg from "../../Assets/footer_bg.jpg"
 
 function Footer() {
