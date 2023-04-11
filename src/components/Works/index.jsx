@@ -2,7 +2,6 @@ import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import React, { useContext, useLayoutEffect } from "react"
 import { MainContext } from "../../context/MainContext"
-import { NavLink } from "react-router-dom"
 gsap.registerPlugin(ScrollTrigger)
 
 function Works() {
