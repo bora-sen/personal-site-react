@@ -18,6 +18,7 @@ function Works() {
         pin: true,
         pinSpacing: false,
         scrub: true,
+        snap: 1,
       })
     })
   }, [works])
