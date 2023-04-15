@@ -1,16 +1,10 @@
 {
   "works": [
     {
-      "title": "Hermorsuffer Website",
-      "placeholderImg": "/images/works/hermorsuffer-ss.jpg",
-      "redURL": "https://hermorsuffer.com",
-      "desc": "My side project that I developed during my spare time to improve my React.js skills and to create a practical application that can help people manage their daily tasks. The app features an interactive user interface, which I built using React.js, a popular JavaScript library known for its simplicity and flexibility."
-    },
-    {
-      "title": "Manage Landing Page | React.js",
-      "placeholderImg": "/images/works/manage-ss.jpg",
-      "redURL": "https://bora-sen.github.io/manage-landing-page/",
-      "desc": "This Project was a valuable learning experience that allowed me to develop my skills in website layout design and implementation using React.js. The project involved creating a landing page for a fictitious product, with a focus on creating an engaging and visually appealing layout that would attract and retain user attention."
+      "title": "Architecture Agency Website",
+      "placeholderImg": "/images/works/architecture-ss.jpg",
+      "redURL": "https://bora-sen.github.io/architectural-agency-website/",
+      "desc": "Architectural Agency Website Made With React.js Tailwindcss and Three.js"
     },
     {
       "title": "Shortly URL Shortener App",
@@ -24,6 +18,19 @@
       "redURL": "https://bora-sen.github.io/weather-app/",
       "desc": "I developed this app to help people easily access the latest weather information for cities in Turkey. To achieve this, I used the Axios JavaScript library, which allowed me to easily fetch the location data for various cities in Turkey using an external API."
     },
+    {
+      "title": "Manage Landing Page | React.js",
+      "placeholderImg": "/images/works/manage-ss.jpg",
+      "redURL": "https://bora-sen.github.io/manage-landing-page/",
+      "desc": "This Project was a valuable learning experience that allowed me to develop my skills in website layout design and implementation using React.js. The project involved creating a landing page for a fictitious product, with a focus on creating an engaging and visually appealing layout that would attract and retain user attention."
+    },
+    {
+      "title": "Hermorsuffer Website",
+      "placeholderImg": "/images/works/hermorsuffer-ss.jpg",
+      "redURL": "https://hermorsuffer.com",
+      "desc": "My side project that I developed during my spare time to improve my React.js skills and to create a practical application that can help people manage their daily tasks. The app features an interactive user interface, which I built using React.js, a popular JavaScript library known for its simplicity and flexibility."
+    },
+
     {
       "title": "Spendit Money Spending App",
       "placeholderImg": "/images/works/spendit-ss.jpg",
