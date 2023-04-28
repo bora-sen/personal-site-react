@@ -1,6 +1,12 @@
 {
   "works": [
     {
+      "title": "Modio - Media Agency Website",
+      "placeholderImg": "/images/works/modio-ss.jpg",
+      "redURL": "https://bora-sen.github.io/modio-website/",
+      "desc": "Digital Media Agency Website Made With React.js, Tailwind.css and GSAP Animations."
+    },
+    {
       "title": "Architecture Agency Website",
       "placeholderImg": "/images/works/architecture-ss.jpg",
       "redURL": "https://bora-sen.github.io/architectural-agency-website/",
